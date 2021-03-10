@@ -1,1 +1,6 @@
-public/
+# dependecies installed by npm
+node_modules
+
+# build artefacts
+src/_site
+dist
