@@ -10,14 +10,6 @@
   <body class="bg-gray-400">
     {{ content | safe }}
 
-    <div x-data="{ open: false }">
-      <button @click="open = true">Open Dropdown</button>
-
-      <ul x-show="open" @click.away="open = false">
-        Dropdown Body
-      </ul>
-    </div>
-
     <script src="scripts/index.js"></script>
   </body>
 </html>
