@@ -3,6 +3,4 @@ publish = "dist"
 command = "yarn build"
 
 [context.production.environment]
-HUGO_VERSION = "0.58.2"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+NPM_VERSION = "14.15.5"
