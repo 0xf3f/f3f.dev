@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>{{ title }}
       | My Site</title>
   </head>
-  <body class="bg-gray-400">
-    {{ content | safe }}
+  <body>
+    <div class="flex items-center justify-center min-h-screen">
+      <h1 class="text-5xl text-green-500 font-serif">Greetings.</h1>
+    </div>
 
-    <script src="scripts/index.js"></script>
+    <script type="module" src="scripts/index.js"></script>
   </body>
 </html>
